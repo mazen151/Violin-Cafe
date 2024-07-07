@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    background-color: #ffe4c4;
+    z-index: -1;
+  }
+  
+  .navbar{
+    background-color: #724100;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+  }
+  .a{
+    position: absolute;
+    left: 340px;
+    top: 20px;
+  }
+  
+  .navbar a{
+    color: #ffe4c4;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 40px;
+  }
+  
+  .navbar a:hover {
+    color: #000000;
+    transition: 0.75s;
+  }
+
+  .logo {
+    position: absolute;
+    left: 550px;
+    top: 10px;
+  }
+
+  .logo img { 
+    width: 400px;
+    height: 400px;
+  }
+
+  .photos img {
+    padding: 1px;
+    border: 4px solid #724100;
+  }
+
+  .d1 {
+    position: absolute;
+    left: 200px;
+    top: 350px;
+  }
+
+  .d2 {
+    position: absolute;
+    left: 650px;
+    top: 350px;
+  }
+
+  .d3 {
+    position: absolute;
+    left: 1000px;
+    top: 350px;
+  }
+
+  @media (max-width : 600px) {
+    .a{
+      position: absolute;
+      left: 0;
+      top: 30px;
+    }
+    
+    .navbar a{
+      font-size: 17px;
+      padding: 7px;
+    }
+  
+    .logo {
+      position: absolute;
+      left: 60px;
+      top: 30px;
+    }
+  
+    .logo img { 
+      width: 230px;
+      height: 230px;
+    }
+
+    .d1 {
+      width: 250px;
+      position: absolute;
+      left: 50px;
+      top: 300px;
+      }
+    
+    .d2 {
+      position: absolute;
+      left: 380px;
+      top: 300px;
+      display: none;
+      }
+    
+    .d3 {
+      width: 220px;
+      position: absolute;
+      left: 65px;
+      top: 475px;
+      }
+    }
